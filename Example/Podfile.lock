@@ -1,0 +1,33 @@
+PODS:
+  - Alamofire (5.10.2)
+  - KKRequestService (0.1.0):
+    - Alamofire
+    - ReachabilitySwift
+    - SmartCodable
+  - ReachabilitySwift (5.2.4)
+  - SmartCodable (5.1.7):
+    - SmartCodable/Core (= 5.1.7)
+  - SmartCodable/Core (5.1.7)
+
+DEPENDENCIES:
+  - KKRequestService (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - ReachabilitySwift
+    - SmartCodable
+
+EXTERNAL SOURCES:
+  KKRequestService:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Alamofire: 7193b3b92c74a07f85569e1a6c4f4237291e7496
+  KKRequestService: 8de472a7802d2bb854a888b1412d850f8e148d24
+  ReachabilitySwift: 32793e867593cfc1177f5d16491e3a197d2fccda
+  SmartCodable: e4d5004b5454867978041818a86c648150f30575
+
+PODFILE CHECKSUM: 7f0527d997a95c52a620fb204d4eabf076eb5d85
+
+COCOAPODS: 1.16.2

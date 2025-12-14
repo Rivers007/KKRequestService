@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '14.0'
+
+target 'KKRequestService_Example' do
+  pod 'KKRequestService', :path => '../'
+
+  target 'KKRequestService_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
