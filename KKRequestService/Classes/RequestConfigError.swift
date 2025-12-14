@@ -10,7 +10,7 @@ import Alamofire
 
 // MARK: - RequestError
 
-public enum KKErrorCode {
+public enum KKErrorCode: Sendable {
     case unknown
     case networkUnavailable
     case invalidProtocol
@@ -20,7 +20,7 @@ public enum KKErrorCode {
 }
 
 
-public protocol RequestErrorProtocol: Error, LocalizedError,Sendable {
+public protocol RequestErrorProtocol: Error, LocalizedError {
     init(code: KKErrorCode?, error: Alamofire.AFError?)
     init(code: KKErrorCode?)
     var code: KKErrorCode? { get set}
