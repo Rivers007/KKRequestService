@@ -10,7 +10,7 @@ import SmartCodable
 
 // MARK: - APIConfigurable
 
-public protocol APIConfigurable: Sendable {
+public protocol APIConfigurable {
     static var noTokenPaths: [String] { get }
     var path: String { get }
 }
@@ -49,7 +49,7 @@ public protocol RequestConfigurable: Sendable {
     func requestFailure(request: KKBaseRequestInfo, error: any RequestErrorProtocol)
 }
 
-public protocol NetworkStrategy: Sendable {
+public protocol NetworkStrategy {
     var serverTrustManager: ServerTrustManager? { get }
     func handleSSLPinningFailure(reason: AFError.ServerTrustFailureReason)
 

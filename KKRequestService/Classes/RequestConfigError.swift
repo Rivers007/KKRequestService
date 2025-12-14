@@ -10,7 +10,7 @@ import Alamofire
 
 // MARK: - RequestError
 
-public enum KKErrorCode: Sendable {
+public enum KKErrorCode {
     case unknown
     case networkUnavailable
     case invalidProtocol
