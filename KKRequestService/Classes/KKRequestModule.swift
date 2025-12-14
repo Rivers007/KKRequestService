@@ -7,6 +7,8 @@
 
 import SmartCodable
 import Alamofire
+import Reachability
 
 @_exported import SmartCodable
+@_exported import Reachability
 @_exported import Alamofire
